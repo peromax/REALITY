@@ -17,7 +17,7 @@ import (
 // defaultCurvePreferences is the default set of supported key exchanges, as
 // well as the preference order.
 func defaultCurvePreferences() []CurveID {
-	if false {
+	if true {
 		return []CurveID{X25519, CurveP256, CurveP384, CurveP521}
 	}
 	return []CurveID{X25519MLKEM768, X25519, CurveP256, CurveP384, CurveP521}
