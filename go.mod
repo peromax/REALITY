@@ -17,4 +17,4 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
 
-replace github.com/refraction-networking/utls => github.com/peromax/utls v1.8.2
+replace github.com/refraction-networking/utls => github.com/peromax/utls v1.8.3
